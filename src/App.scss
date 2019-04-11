@@ -19,17 +19,18 @@
   justify-content: center;
   height: 90% !important;
   position: relative;
-}
-.n-display .number {
-  display: none;
-  list-style: none;
-  padding: 0 1rem;
-  position: relative;
-  top: -5rem !important;
-}
-.n-display .number li {
-  display: inline-block;
-  font-size: 9rem;
+
+  & .number {
+    display: none;
+    list-style: none;
+    padding: 0 1rem;
+    position: relative;
+    top: -5rem !important;
+
+    & li {
+      display: inline-block;
+      font-size: 9rem;//800%;
+    }
+  }
 }
 
-/*# sourceMappingURL=App.css.map */
